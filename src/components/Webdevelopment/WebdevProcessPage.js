@@ -10,7 +10,7 @@ const WebdevProcessPage = () => {
       
         <div className='WebdevProcessPagel_sub'>
             <div className='WebdevProcessPage_heading'>How <span style={{color:'#2176ff'}}>Web Development Outsourcing</span> <br/>
-With InvoZone Works?</div>
+With Zetamonk Works?</div>
             <Grid container>
                 <Grid align='center' justify='center' item xs={12} sm={12} md={6}  lg={6} xl={6}>
                     <img className='WebdevProcessPage_image' src={webdevprocessimages}></img>
