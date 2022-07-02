@@ -1,0 +1,135 @@
+
+
+.steps_main_component{
+    padding: 120px 80px 120px 80px;
+}
+
+.stepscomponent_main:hover  .stepscomponent_discussion_heading{
+color: #086ad8;
+}
+
+
+.stepcomponents_count{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    z-index: 999;
+
+
+}
+.stepscomponent_main:hover .stepcomponents_count{
+ color: white;
+ background-color: #086ad8;
+border: none;
+transition: 0.5s;
+}
+
+.stepscomponent_main:hover  .stepcomponents_count::before{
+    content: '';
+    height:50px;
+    width:50px;
+    border: 1px solid #0869d811;
+    border-radius: 50%;
+    position: absolute;
+    animation: circles 0.7s infinite linear;
+
+}
+.stepscomponent_main:hover  .stepcomponents_count::after{
+    content: '';
+    height:60px;
+    width:60px;
+    border: 1px solid #0869d813;
+    border-radius: 50%;
+    position: absolute;
+    animation: circles 0.8s infinite linear;
+
+}
+
+
+
+@keyframes circles {
+    100%  {transform: scale(1.3);}
+  
+  
+  }
+
+  .stepscomponent_sub1{
+    width: 88.7%;
+    height:1px;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+
+    position: relative;
+    top: 24px;  
+    left: 49px;
+    z-index: -1;
+
+  }
+
+  .stepscomponent_discussion_heading{
+      line-height: 5;
+      font-size: 18px;
+    font-weight: 500;
+    
+  }
+.stepscomponent_discussion_description{
+    color: #696969;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 1.74;
+}
+
+.stepscomponent_sub{
+    /* padding: 30px; */
+    }
+
+.stepscomponent_discussion_button{
+    color: #086ad8;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.stepscomponent_discussion_button::after{
+    cursor: pointer;
+}
+ 
+.steps_main_text{
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 2.43;
+    font-weight: 700;
+}
+
+.steps_main_heading{
+    max-width: 360px;
+    line-height: 1.4;
+    font-size: 40px;
+}
+
+.stepscomponent_steps_mark::before{
+content: '';
+position: absolute;
+height: 1px;
+width: 40px;
+background-color: #086ad8;
+margin-top: 8px;
+margin-left: -50px;
+}
+
+.stepscomponent_steps_mark{
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 500px) {
+    .steps_main_component{
+        padding: 15px;
+        margin-top: 60px;
+    }
+  }

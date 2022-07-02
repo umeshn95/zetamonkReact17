@@ -1,0 +1,26 @@
+.about_us_sub{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+.idea_deliver_div{
+    font-size: 17px;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.788);
+    margin-top: 10px;
+    font-weight: 700;
+}
+.fastest_growing{
+    font-size: 16px;
+    line-height: 2.3;
+    color: black;
+    margin-top: 10px;
+}
+.figure_plans_a{
+    letter-spacing: 1.2px;
+    font-size: 16px;
+    line-height: 5;
+font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+font-weight: 700;
+color: blue;
+}

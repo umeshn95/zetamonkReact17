@@ -1,0 +1,20 @@
+.design_dev_practices{
+    font-family: 'Source Sans Pro',sans-serif;
+    line-height: 45px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.design_dev_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.design_dev_main{
+    padding: 40px;
+}

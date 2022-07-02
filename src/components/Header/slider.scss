@@ -1,0 +1,77 @@
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+//animation
+$animationSpeed: 60s;
+
+// Animation
+@keyframes scroll {
+	0% { transform: translateX(0); }
+
+	100% { transform: translateX(calc(-125px * 14))}
+}
+
+@keyframes slide-right-pause {
+    50% {
+      left: 0;
+    }
+    75%  {
+      left: -100px;
+    }
+    100% {
+      left: 0;
+    }
+}
+
+
+//styling
+.slider{
+    background: white;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 560px;
+	
+	
+
+}
+
+.slide-track {
+    animation: scroll $animationSpeed linear infinite, slide-right-pause 20s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.slide {
+    height: 100px;
+    width: 250px;
+}
+
+@media only screen and (max-width: 1200px) {
+.slider{
+    display: none;
+}
+.slide  {
+    display: none;
+}
+.slide-track  {
+    display: none;
+}
+.slid  {
+    display: none;
+}
+.social {
+    display: none;
+    
+}
+}
+
+// .social{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-start;
+// }
+
+

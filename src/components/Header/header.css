@@ -1,0 +1,67 @@
+.modal-backdrop {
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(245, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  width: 100%;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+    /* z-index: 999!important; */
+  }
+  
+  .modal-content {
+   position: absolute;
+    right: 0px;
+    width: 300px;
+    height: 100vh;
+    padding: 25px;
+    display: inline-block;
+   border: 0;
+   text-decoration: none;
+   border-radius: 15px;
+   background-color: rgba(223, 223, 223, 0.815);
+   border: 1px solid rgb(255, 255, 255);
+   backdrop-filter: blur(30px);
+   color: rgb(214, 181, 181);
+   cursor: pointer;
+   text-transform: uppercase;
+   z-index: 999;
+    
+  }
+
+  .glass_button{
+    display: inline-block;
+    padding: 12px 20px;
+    border: 0;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(248, 248, 248, 0.919);
+    border: 1px solid rgb(255, 255, 255);
+    backdrop-filter: blur(30px);
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width:290px;
+  }
+
+  
+  /* new header start */
+
+  .header_main_blue{
+    background: transparent;
+  }
+
+  .header_sub_blue{
+    
+  }

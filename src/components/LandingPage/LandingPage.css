@@ -1,0 +1,157 @@
+.landing_page_main_div{
+    position: absolute;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(30px);
+    width:100%;
+    /* z-index: -1; */
+    position: relative;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.landing_page_main_text{
+    position: relative;
+   height: 50vh;
+   width: 80%;
+   left: 10%;
+   top: 20%;
+}
+
+.landing_page_main_heading{
+    display: flex;
+    flex-direction: column;
+}
+.landing_page_main_heading1{
+    flex-basis: 150px;
+
+}
+.landing_page_main_heading2{
+    display: flex;
+    flex-direction: column;
+   flex-basis: 300px;
+   text-align: left;
+  margin-left: 130px;
+}
+.landing_page_main_heading3{
+    flex-basis: 125px;
+   
+}
+
+.figure_plan{
+    letter-spacing: 1.2px;
+    opacity: 0.7;
+    font-size: 15px;
+    line-height: 5;
+}
+
+.custom_software{
+    letter-spacing: 1.2px;
+    opacity: 1;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1.4;
+    max-width: 450px;
+    margin-bottom: 25px;
+}
+
+.custom_software_div{
+    max-width: 420px;
+}
+
+.button1s{
+    cursor: pointer;
+    background-color: rgb(8, 106, 216);
+    backdrop-filter: blur(30px);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+transition: 2s;
+
+}
+
+.button1s:hover{
+transform: translateY(-4px);
+transition: 1s;
+}
+
+.dig_deeper{
+    line-height: 5;
+}
+
+@media screen and (max-width: 480px){
+    .landing_page_main_heading1{
+        display: none;
+    
+    }
+    .landing_page_main_heading3{
+        display: none;
+
+       
+    }
+    .landing_page_main_heading2{
+        display: flex;
+        flex-direction: column;
+       flex-basis: 300px;
+       text-align: left;
+      padding: 30px;
+      margin-left: 0;
+    }
+}
+
+#tsparticles{
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    top: 0;
+    position: fixed;
+}
+
+.dyanamic_txts li{
+list-style: none;
+top: 0;
+position: relative;
+
+/* animation: slide 7.5s steps(4) infinite; */
+}
+
+@keyframes slide{
+    100%{
+      top: -160px;
+    }
+}
+.dyanamic_txts {
+overflow: hidden;
+margin-left: 15px;
+height: 40px;
+
+}
+
+
+.dyanamic_txts li span{
+position: relative;
+}
+
+.dyanamic_txts li span::after{
+content: '';
+position: absolute;
+height: 100%;
+width: 100%;
+background-color: white;
+border-left: 2px solid #086AD8;
+animation: typing 1.5s steps(8) infinite;
+left: 0;
+}
+
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -25px 0 25px;
+    }
+}
+
+.static_txt{
+    z-index: 999;
+}

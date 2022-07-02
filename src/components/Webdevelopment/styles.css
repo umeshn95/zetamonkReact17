@@ -1,0 +1,286 @@
+
+/* webdevserviceMain */
+
+.webdev_service_main{
+  height: 670px;
+  padding-top: 70px;
+}
+
+.webdev_service_webdevimages{
+height:365px;
+width:610px;
+}
+
+.webdev_service_heading{
+    font-size: 55px;
+    font-family: 'Public Sans', sans-serif;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.webdev_service_description{
+    padding-bottom: 1.5rem;
+    color: #2d2d2d;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Public Sans', sans-serif;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.webdev_service_points{
+    padding-bottom: 1rem;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Public Sans', sans-serif;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+}
+
+.webdev_service_points1{
+    font-size: 1rem;
+    background-color:#2176FF;
+    border-radius: 50%;
+    height: 8px;
+    margin-right: 12px;
+    margin-top: 6px;
+    width: 8px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Public Sans', sans-serif;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+}
+
+.webdev_service_button{
+    background: transparent;
+    background-color: #2176FF;
+    border: 1px solid #2176FF;
+    border-radius: 50rem;
+    color: #fff!important;
+    display: inline-block;
+    font-style: normal;
+    font: "400 13.3333px Arial";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    min-width: 100px;
+    overflow: hidden;
+    padding: 0.5rem 2rem;
+    position: relative;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+}
+
+.webdev_services_sub_left{
+    padding-left: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+  .webdev_service_main{
+    height: 130vh;
+    padding-top: 10px;
+  }
+    .webdev_services_sub_left{
+        padding: 20px;
+    padding-left: 20px;
+
+    }
+    .webdev_service_webdevimages{
+        height:365px;
+        width:360px;
+        }
+
+        .webdev_service_heading{
+            font-size: 40px;
+        }
+        .webdev_service_description{
+            font-size: 20px;
+        }
+        .WebdevProcessPage_main{
+            margin-top: 100px;
+        }
+        
+  }
+
+
+
+  /* webdev process page */
+  .WebdevProcessPage_main{
+    margin-top: 100px;
+}
+
+  .WebdevProcessPageRight_discuss_circle{
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 700;
+    height: 19px;
+    justify-content: center;
+    margin-top: 4px;
+    padding-left: 3px;
+    width: 19px;
+    background: radial-gradient(ellipse at center,rgba(255,113,12,0) 50%,#ff4081 0);
+
+  }
+  .WebdevProcessPageRight_discuss_circle2{
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 700;
+    height: 19px;
+    justify-content: center;
+    margin-top: 4px;
+    padding-left: 3px;
+    width: 19px;
+    background: radial-gradient(ellipse at center,rgba(255,113,12,0) 50%,#ffd740 0)
+
+  }
+  .WebdevProcessPageRight_discuss_circle3{
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 700;
+    height: 19px;
+    justify-content: center;
+    margin-top: 4px;
+    padding-left: 3px;
+    width: 19px;  
+      background: radial-gradient(ellipse at center,rgba(255,113,12,0) 50%,#40c4ff 0);
+
+  }
+  .WebdevProcessPageRight_discuss_circle4{
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 700;
+    height: 19px;
+    justify-content: center;
+    margin-top: 4px;
+    padding-left: 3px;
+    width: 19px;  
+    background: radial-gradient(ellipse at center,rgba(255,113,12,0) 50%,#ef4335 0);
+
+  }
+  .WebdevProcessPageRight_discuss_circle5{
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 700;
+    height: 19px;
+    justify-content: center;
+    margin-top: 4px;
+    padding-left: 3px;
+    width: 19px;  
+    background: radial-gradient(ellipse at center,rgba(255,113,12,0) 50%,#399439 0);
+
+  }
+
+  .WebdevProcessPageRight_main{
+      display: flex;
+      flex-direction: column;
+     padding:15px;
+     gap: 15px;
+  }
+
+  .WebdevProcessPage_image{
+      height: 500px;
+      width:500px
+  }
+
+ 
+  .WebdevProcessPage_heading{
+    text-align: center;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    font-family: 'Public Sans', sans-serif;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+  }
+
+  .WebdevProcessPageRight_discuss_heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    font-family: 'Public Sans', sans-serif;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  }
+
+  .WebdevProcessPageRight_discuss_description{
+    color: #212529;
+    font-family: Public Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+  }
+
+
+
+
+  /* wev dev faq */
+  .WebdevFaq_faq_real{
+    padding:20px 160px;
+}
+.WebdevFaq_main{
+    margin: 40px 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+ 
+  
+.WebdevProcessPage_image{
+    height: 400px;
+    width: 320px;
+  
+}
+.WebdevFaq_faq_real{
+    padding:5px;
+}
+.WebdevProcessPage_heading{
+    text-align: center;
+    
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.3;
+    padding: 20px;
+
+  }
+  .WebdevProcessPage_main{
+    margin-top: 30px;
+}
+
+}
+.WebdevFaq_faq{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    text-align: center;
+
+}
+ 
+
+

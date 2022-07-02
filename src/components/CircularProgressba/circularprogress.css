@@ -1,0 +1,10 @@
+.circular_progress_main_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+    padding: 70px 0;
+    background-color: rgba(130, 135, 206, 0.082);
+    backdrop-filter: blur(30px);
+  box-shadow: 1px 10px 20px -10px rgb(209, 187, 187);
+}

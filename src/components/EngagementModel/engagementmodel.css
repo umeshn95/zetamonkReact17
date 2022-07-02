@@ -1,0 +1,140 @@
+
+
+.engagementmodel_main{
+    font-family: 'Public Sans', sans-serif;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.engagementmodel_sub{
+    padding: 80px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.engagement_model_leftpart_heading{
+  
+    font-family: 'Public Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+
+
+  
+}
+
+.engagement_model_leftpart_description{
+    font-family: 'Public Sans', sans-serif;
+
+    color: #212529;
+    font-family: Public Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+    padding: 35px 0;
+
+
+  
+    
+}
+
+
+
+.engagementmodel_staff{
+    font-family: 'Public Sans', sans-serif;
+
+    color: #212529;
+    font-family: Public Sans;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0;
+    text-align: left;
+    font-weight: 700;
+    padding-bottom: 5px;
+
+}
+
+
+
+.engagementmodel_staff_description{
+    font-family: 'Public Sans', sans-serif;
+
+    color: #212529;
+    font-family: Public Sans;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+    font-weight: 400;
+    padding-top: 4px;
+    max-width: 450px;
+}
+
+.engagementmodelright_staff_main{
+    font-family: 'Public Sans', sans-serif;
+
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 16px 16px 84px 0 rgb(0 0 0 / 4%);
+    margin: 15px 0;
+    width: 90%;
+    padding: 20px;
+}
+
+.engagement_model_call{
+    font-family: 'Public Sans', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.engagement_model_call2{
+    padding-left: 50px;
+}
+
+.engagementmodel_view_pricing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.engagementmodel_view_pricing button{
+    background-color:#2176FF;
+    border: 1px solid #2176FF;
+    border-radius: 50rem;
+    color: #fff!important;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    min-width: 100px;
+    padding: 0.5rem 2rem;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .engagement_model_leftpart_heading {
+     text-align: center;
+     padding:10px;
+    }
+    .engagement_model_leftpart_description{
+        text-align: center;
+        padding:10px;
+
+
+    }
+    .engagement_model_call2{
+        padding-left: 0px;
+    }
+    .engagementmodel_sub{
+        padding: 0px;
+        
+    }
+  
+  }

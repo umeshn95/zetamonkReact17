@@ -1,0 +1,71 @@
+.slides {
+    position: relative;
+    .slick-prev, .slick-next {
+      position: absolute;
+      top: 50%;
+    }
+    .slick-prev {
+      left: 5%;
+    }
+    .slick-next {
+      right: 5%;
+    }
+  }
+
+  .GetInTouch_heading{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 150px;
+  }
+  .GetInTouch_description{
+    margin-left: 100px;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+
+  .zetamonk_contact_global_heading{
+    font-family: 'Public Sans', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 100px;
+    font-weight: 700;
+  }
+
+ 
+
+@media (max-width: 768px) {
+  .GetInTouch_heading{
+    text-align: left;
+    margin-left: 0px;
+    margin: 12px;
+    margin-top: 0px;
+    font-size: 34px;
+  }
+  .GetInTouch_description{
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: left;
+    margin: 12px;
+    font-size: 20px;
+
+
+  }
+  .GetInTouch_main_form{
+    border: 10px solid black;
+  }
+
+}
+
+.zetamonk_contacus_numbers{
+    font-family: 'Public Sans', sans-serif;
+    color: #2176ff!important;
+  font-size: 51px;
+  font-weight: 700;
+}
+.zetamonk_contacus_numbers_text{
+    font-family: 'Public Sans', sans-serif;
+  font-size: 14px;
+  padding: 15px;
+
+}

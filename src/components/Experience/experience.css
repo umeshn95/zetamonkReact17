@@ -1,0 +1,82 @@
+.experience_main{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+
+    margin-bottom: 150px;
+
+}
+.experience_description{
+    line-height: 1.94;
+    font-size: 16px;
+
+}
+
+.experience_number{
+    font-size: 180px;
+line-height: .8;
+font-weight: 900;
+margin: 0 5px -5px -5px;
+color: #774726fd;
+}
+
+.we_run{
+    min-width:600px;
+  max-width:600px;
+  text-align:center;
+  margin:0 auto;
+  font-size: 30px;
+  word-spacing: 5px;
+  font-weight: 600;
+  line-height: 1.5;
+
+}
+@media screen and (max-width: 480px){
+    .we_run{
+      min-width: auto;
+      max-width: auto;
+      text-align:center;
+      margin:0 auto;
+      font-size: 20px;
+      word-spacing: 5px;
+      font-weight: 600;
+      line-height: 1.5;
+      text-align: center;
+    
+    } 
+    .years{
+        display: flex;
+        flex-direction: column;
+        padding:0;
+    }
+    .experience_year_number{
+      flex-direction: column;
+    }
+    .experience_number{
+        align-self: center;
+    }
+}
+
+.figure_plans{
+    font-size: 14px;
+    font-weight: 500;
+    word-spacing: 2px;
+    letter-spacing: 1.7px;
+    line-height: 3.5;
+}
+
+.years{
+    display: flex;
+    padding: 80px 20px 0px 20px;
+
+}
+
+.experience_year_number{
+    display: flex;
+    flex-basis:56%;
+    align-self:center;
+    justify-self: center;
+
+}
+
