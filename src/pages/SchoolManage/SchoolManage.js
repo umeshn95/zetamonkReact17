@@ -2,16 +2,12 @@ import React from 'react';
 import { Counter, Custom, InfoSection, TechStack } from '../../components';
 import ScrollToTop from '../../components/ScrollToTop';
 import {  homeObjThree, homeObjTwo,homeObjOne } from './Data';
+import Uiuxdevelopment from '../../components/Webdevelopment/Uiuxdevelopment';
 
 function SchoolManage() {
   return (
     <>
-      <InfoSection {...homeObjThree} />
-      <InfoSection {...homeObjTwo} />
-      {/* <InfoSection {...homeObjOne} /> */}
-      <TechStack></TechStack>
-      <InfoSection {...homeObjOne} />
-      <Custom></Custom>
+    <Uiuxdevelopment/>
 
 <ScrollToTop></ScrollToTop>
 
