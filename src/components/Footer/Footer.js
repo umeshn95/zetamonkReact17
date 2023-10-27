@@ -43,7 +43,7 @@ function Footer() {
         <div className='footer_div_address2'>
 contact@zetamonk.com
 </div>
-        <div className='footer_div_phone_number'>(+91)8871501463 </div>
+        <div className='footer_div_phone_number'>(+91)9540424976 </div>
         <div className='footer_div_mailid'>www.zetamonk.com
 </div>
       </Grid>
